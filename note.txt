@@ -1,0 +1,3 @@
+npm install tailwindcss @tailwindcss/vite
+vs for latest verstion according to documentation
+npm install tailwindcss @tailwindcss/vite --legacy-peer-deps
