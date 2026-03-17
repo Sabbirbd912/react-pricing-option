@@ -30,9 +30,9 @@ const Navbar = () => {
     ];
   return (
     <nav>
-        <ul>
+        <ul className="flex items-center justify-center gap-5">
             {
-                navLinks.map(route=> <li>
+                navLinks.map(route=> <li className="text-2xl font-bold">
                     <a href={route.path}>{route.name}</a>
                 </li>)
             }
